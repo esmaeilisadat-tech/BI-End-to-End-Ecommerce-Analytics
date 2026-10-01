@@ -1,6 +1,6 @@
 # End-to-End Business Intelligence and Predictive Analytics Solution using Databricks and Power BI
 
-**Author: Dr. Mohammad Reza Eidi**
+**Author: مهدی اسماعیلی (Mehdi Esmaeili)**
 
 Final Business Intelligence project | October 2026
 
