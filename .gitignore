@@ -1,0 +1,72 @@
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+tmp/
+temp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Power BI local/cache files; final *.pbix is intentionally retained
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/unappliedChanges.json
+*.pbix.lock
+*.pbix.tmp
+*.pbit.tmp
+AnalysisServicesWorkspaces/
+Microsoft/Power BI Desktop/AnalysisServicesWorkspaces/
+
+# Databricks local state and temporary outputs
+.databricks/
+.bundle/
+.dbx/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Credentials and private configuration
+.env
+.env.*
+*.env
+.databrickscfg
+.netrc
+.npmrc
+.pypirc
+.aws/
+.azure/
+.config/gcloud/
+credentials*
+secrets*
+tokens*
+*service-account*.json
+*service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+**/local.settings.json
+**/connection-secrets.*
+**/private-config.*
+
+# Data exports and generated outputs (documentation remains tracked)
+*.csv
+*.tsv
+*.parquet
+*.avro
+*.orc
+*.delta
+data/*
+!data/README.md
